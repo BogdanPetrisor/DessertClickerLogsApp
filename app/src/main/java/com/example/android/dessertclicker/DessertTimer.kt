@@ -64,6 +64,7 @@ class DessertTimer(lifecycle: Lifecycle) : LifecycleObserver {
             // through. The delayMillis param tells the handler to run the runnable in
             // 1 second (1000ms)
             handler.postDelayed(runnable, 1000)
+            println()
         }
 
         // This is what initially starts the timer
